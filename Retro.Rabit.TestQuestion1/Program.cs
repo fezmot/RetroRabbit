@@ -10,8 +10,7 @@ namespace Retro.Rabit.TestQuestion1
     class Program
     {
         static void Main(string[] args)
-        {
-           
+        {          
             var res = LoadData(@"c:\users\f makopo\documents\visual studio 2015\Projects\Retro.Rabit.TestQuestion1\Retro.Rabit.TestQuestion1\Files\ListOfWords.txt");
             string wordResults = string.Empty;
             var wordFound = checkWordExist(res, "ABCDE", out wordResults);
