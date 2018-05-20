@@ -11,15 +11,14 @@ namespace Retro.Rabit.TestQuestion1
     {
         static void Main(string[] args)
         {
+           
             var res = LoadData(@"c:\users\f makopo\documents\visual studio 2015\Projects\Retro.Rabit.TestQuestion1\Retro.Rabit.TestQuestion1\Files\ListOfWords.txt");
             string wordResults = string.Empty;
             var wordFound = checkWordExist(res, "ABCDE", out wordResults);
-            if (wordFound == true)
-            {
+            if (wordFound == true){
                 Console.WriteLine(wordResults);
             }
-            else
-            {
+            else{
                 Console.WriteLine("No Words Found");
             }
             Console.ReadLine();
@@ -54,5 +53,7 @@ namespace Retro.Rabit.TestQuestion1
             }
             return false;
         }
+
+        string s = testc;
     }
 }
