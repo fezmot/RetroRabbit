@@ -53,7 +53,5 @@ namespace Retro.Rabit.TestQuestion1
             }
             return false;
         }
-
-        string s = testc;
     }
 }
